@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91230C1D1C85151C0062DA18 /* MultipleChoice.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91230C1C1C85151C0062DA18 /* MultipleChoice.plist */; };
+		91230C231C85197F0062DA18 /* MultipleChoiceQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91230C221C85197F0062DA18 /* MultipleChoiceQuestionsViewController.swift */; };
+		91230C251C85314D0062DA18 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91230C241C85314D0062DA18 /* Device.swift */; };
+		91230C271C85325D0062DA18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91230C261C85325D0062DA18 /* Extensions.swift */; };
+		91230C2E1C8542F70062DA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91230C2C1C8542F70062DA18 /* Main.storyboard */; };
 		91665AD71C8120E7004B9B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665AD61C8120E7004B9B77 /* AppDelegate.swift */; };
 		91665AD91C8120E7004B9B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665AD81C8120E7004B9B77 /* ViewController.swift */; };
-		91665ADC1C8120E7004B9B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91665ADA1C8120E7004B9B77 /* Main.storyboard */; };
 		91665ADE1C8120E7004B9B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91665ADD1C8120E7004B9B77 /* Assets.xcassets */; };
-		91665AE11C8120E7004B9B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91665ADF1C8120E7004B9B77 /* LaunchScreen.storyboard */; };
 		91665AEC1C8120E7004B9B77 /* TestMaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665AEB1C8120E7004B9B77 /* TestMaxTests.swift */; };
 		91665AF71C8120E7004B9B77 /* TestMaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665AF61C8120E7004B9B77 /* TestMaxUITests.swift */; };
+		91665B131C821166004B9B77 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665B121C821166004B9B77 /* SettingsViewController.swift */; };
+		91665B221C82AAE3004B9B77 /* ipadbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91665B1D1C82AAE3004B9B77 /* ipadbg@2x.png */; };
+		91665B231C82AAE3004B9B77 /* iphone4bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91665B1E1C82AAE3004B9B77 /* iphone4bg@2x.png */; };
+		91665B241C82AAE3004B9B77 /* iphone5bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91665B1F1C82AAE3004B9B77 /* iphone5bg@2x.png */; };
+		91665B251C82AAE3004B9B77 /* iphone6bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91665B201C82AAE3004B9B77 /* iphone6bg@2x.png */; };
+		91665B261C82AAE3004B9B77 /* iphone6plusbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91665B211C82AAE3004B9B77 /* iphone6plusbg@2x.png */; };
+		91665B5C1C841B76004B9B77 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91665B5B1C841B76004B9B77 /* Configuration.swift */; };
+		91C4C28A1C85C99600BF7977 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4C2891C85C99600BF7977 /* ReviewTableViewController.swift */; };
+		91F5D8251C86B65200B33E61 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91F5D8241C86B65200B33E61 /* testImage.jpg */; };
+		91F5D8271C86C11D00B33E61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F5D8261C86C11D00B33E61 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91230C1C1C85151C0062DA18 /* MultipleChoice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultipleChoice.plist; sourceTree = "<group>"; };
+		91230C221C85197F0062DA18 /* MultipleChoiceQuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionsViewController.swift; sourceTree = "<group>"; };
+		91230C241C85314D0062DA18 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		91230C261C85325D0062DA18 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		91230C2D1C8542F70062DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91665AD31C8120E7004B9B77 /* TestMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91665AD61C8120E7004B9B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91665AD81C8120E7004B9B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91665ADB1C8120E7004B9B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91665ADD1C8120E7004B9B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91665AE01C8120E7004B9B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91665AE21C8120E7004B9B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91665AE71C8120E7004B9B77 /* TestMaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91665AEB1C8120E7004B9B77 /* TestMaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMaxTests.swift; sourceTree = "<group>"; };
@@ -47,6 +63,16 @@
 		91665AF21C8120E7004B9B77 /* TestMaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91665AF61C8120E7004B9B77 /* TestMaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMaxUITests.swift; sourceTree = "<group>"; };
 		91665AF81C8120E7004B9B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91665B121C821166004B9B77 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		91665B1D1C82AAE3004B9B77 /* ipadbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadbg@2x.png"; sourceTree = "<group>"; };
+		91665B1E1C82AAE3004B9B77 /* iphone4bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone4bg@2x.png"; sourceTree = "<group>"; };
+		91665B1F1C82AAE3004B9B77 /* iphone5bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone5bg@2x.png"; sourceTree = "<group>"; };
+		91665B201C82AAE3004B9B77 /* iphone6bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone6bg@2x.png"; sourceTree = "<group>"; };
+		91665B211C82AAE3004B9B77 /* iphone6plusbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone6plusbg@2x.png"; sourceTree = "<group>"; };
+		91665B5B1C841B76004B9B77 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		91C4C2891C85C99600BF7977 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		91F5D8241C86B65200B33E61 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		91F5D8261C86C11D00B33E61 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +123,20 @@
 		91665AD51C8120E7004B9B77 /* TestMax */ = {
 			isa = PBXGroup;
 			children = (
+				91665B271C841ACA004B9B77 /* Resources */,
+				91665B1C1C82AA62004B9B77 /* Images */,
 				91665AD61C8120E7004B9B77 /* AppDelegate.swift */,
 				91665AD81C8120E7004B9B77 /* ViewController.swift */,
-				91665ADA1C8120E7004B9B77 /* Main.storyboard */,
+				91230C241C85314D0062DA18 /* Device.swift */,
+				91F5D8261C86C11D00B33E61 /* LaunchScreen.xib */,
+				91230C2C1C8542F70062DA18 /* Main.storyboard */,
 				91665ADD1C8120E7004B9B77 /* Assets.xcassets */,
-				91665ADF1C8120E7004B9B77 /* LaunchScreen.storyboard */,
 				91665AE21C8120E7004B9B77 /* Info.plist */,
+				91665B121C821166004B9B77 /* SettingsViewController.swift */,
+				91665B5B1C841B76004B9B77 /* Configuration.swift */,
+				91230C221C85197F0062DA18 /* MultipleChoiceQuestionsViewController.swift */,
+				91230C261C85325D0062DA18 /* Extensions.swift */,
+				91C4C2891C85C99600BF7977 /* ReviewTableViewController.swift */,
 			);
 			path = TestMax;
 			sourceTree = "<group>";
@@ -123,6 +157,27 @@
 				91665AF81C8120E7004B9B77 /* Info.plist */,
 			);
 			path = TestMaxUITests;
+			sourceTree = "<group>";
+		};
+		91665B1C1C82AA62004B9B77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91F5D8241C86B65200B33E61 /* testImage.jpg */,
+				91665B1D1C82AAE3004B9B77 /* ipadbg@2x.png */,
+				91665B1E1C82AAE3004B9B77 /* iphone4bg@2x.png */,
+				91665B1F1C82AAE3004B9B77 /* iphone5bg@2x.png */,
+				91665B201C82AAE3004B9B77 /* iphone6bg@2x.png */,
+				91665B211C82AAE3004B9B77 /* iphone6plusbg@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		91665B271C841ACA004B9B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91230C1C1C85151C0062DA18 /* MultipleChoice.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +287,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91665AE11C8120E7004B9B77 /* LaunchScreen.storyboard in Resources */,
+				91F5D8271C86C11D00B33E61 /* LaunchScreen.xib in Resources */,
+				91F5D8251C86B65200B33E61 /* testImage.jpg in Resources */,
+				91665B221C82AAE3004B9B77 /* ipadbg@2x.png in Resources */,
+				91665B261C82AAE3004B9B77 /* iphone6plusbg@2x.png in Resources */,
+				91230C1D1C85151C0062DA18 /* MultipleChoice.plist in Resources */,
+				91665B251C82AAE3004B9B77 /* iphone6bg@2x.png in Resources */,
+				91665B231C82AAE3004B9B77 /* iphone4bg@2x.png in Resources */,
 				91665ADE1C8120E7004B9B77 /* Assets.xcassets in Resources */,
-				91665ADC1C8120E7004B9B77 /* Main.storyboard in Resources */,
+				91230C2E1C8542F70062DA18 /* Main.storyboard in Resources */,
+				91665B241C82AAE3004B9B77 /* iphone5bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				91665AD91C8120E7004B9B77 /* ViewController.swift in Sources */,
+				91C4C28A1C85C99600BF7977 /* ReviewTableViewController.swift in Sources */,
 				91665AD71C8120E7004B9B77 /* AppDelegate.swift in Sources */,
+				91665B131C821166004B9B77 /* SettingsViewController.swift in Sources */,
+				91230C271C85325D0062DA18 /* Extensions.swift in Sources */,
+				91230C231C85197F0062DA18 /* MultipleChoiceQuestionsViewController.swift in Sources */,
+				91230C251C85314D0062DA18 /* Device.swift in Sources */,
+				91665B5C1C841B76004B9B77 /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +364,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91665ADA1C8120E7004B9B77 /* Main.storyboard */ = {
+		91230C2C1C8542F70062DA18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				91665ADB1C8120E7004B9B77 /* Base */,
+				91230C2D1C8542F70062DA18 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		91665ADF1C8120E7004B9B77 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91665AE01C8120E7004B9B77 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TestMax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.TestMax;
@@ -413,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TestMax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.TestMax;
@@ -487,6 +549,7 @@
 				91665AFD1C8120E7004B9B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91665AFE1C8120E7004B9B77 /* Build configuration list for PBXNativeTarget "TestMaxTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +558,7 @@
 				91665B001C8120E7004B9B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91665B011C8120E7004B9B77 /* Build configuration list for PBXNativeTarget "TestMaxUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +567,7 @@
 				91665B031C8120E7004B9B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZyW-H0-SLL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wco-60-UHY">
+            <objects>
+                <navigationController id="ZyW-H0-SLL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1ib-pv-zCz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6Bq-J9-cvw" kind="relationship" relationship="rootViewController" id="5IC-UN-krs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="56h-0P-jFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-576" y="486"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tP6-7O-USc">
+            <objects>
+                <viewController storyboardIdentifier="menuViewController" id="6Bq-J9-cvw" customClass="ViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mNx-Q4-bS4"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Sd-as-rlU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iLU-Xx-to3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Quiz App!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myb-u6-JKJ">
+                                <rect key="frame" x="16" y="72" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggF-cg-7K1">
+                                <rect key="frame" x="16" y="101" width="120" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sqi-mT-YMj" kind="show" id="MEo-au-Zc5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ftG-yM-ryN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Mf-As-YGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="486"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="YEg-vc-n5L">
+            <objects>
+                <viewController storyboardIdentifier="settingsViewController" id="Sqi-mT-YMj" customClass="SettingsViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qf3-3d-P5z"/>
+                        <viewControllerLayoutGuide type="bottom" id="yUR-Mi-lB1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ugm-nt-X6O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gku-KJ-OIe">
+                                <rect key="frame" x="0.0" y="547" width="600" height="53"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="guR-hy-Kan"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2hV-D0-qNz">
+                                <rect key="frame" x="0.0" y="72" width="600" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoK-Rv-qIV">
+                                        <rect key="frame" x="150" y="26" width="300" height="60"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="oF3-aR-Vjg"/>
+                                            <constraint firstAttribute="width" constant="300" id="pg2-oJ-7PL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                        <state key="normal" title="Multiple Choice">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="RoK-Rv-qIV" secondAttribute="centerY" id="8LB-Oy-hrB"/>
+                                    <constraint firstAttribute="centerX" secondItem="RoK-Rv-qIV" secondAttribute="centerX" id="S2J-Dc-cul"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEf-Ul-jAs">
+                                <rect key="frame" x="0.0" y="191" width="600" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zza-A7-88i">
+                                        <rect key="frame" x="150" y="26" width="300" height="60"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="lu4-4I-JQL"/>
+                                            <constraint firstAttribute="height" constant="60" id="uVy-kz-6fB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                        <state key="normal" title="Right or Wrong">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="Zza-A7-88i" secondAttribute="centerY" id="b3K-dw-wex"/>
+                                    <constraint firstAttribute="centerX" secondItem="Zza-A7-88i" secondAttribute="centerX" id="s9S-9G-KWd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oe8-zj-d8G">
+                                <rect key="frame" x="0.0" y="310" width="600" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgQ-I8-gvH">
+                                        <rect key="frame" x="150" y="25" width="300" height="60"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="68E-et-vPg"/>
+                                            <constraint firstAttribute="width" constant="300" id="cVJ-th-lZb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                        <state key="normal" title="Single Choice">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="OgQ-I8-gvH" secondAttribute="centerY" id="aXa-U8-OJV"/>
+                                    <constraint firstAttribute="centerX" secondItem="OgQ-I8-gvH" secondAttribute="centerX" id="jxY-Qe-TP7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLc-bv-Snv">
+                                <rect key="frame" x="0.0" y="429" width="600" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUC-Wh-JTB">
+                                        <rect key="frame" x="150" y="26" width="300" height="60"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="UCw-pD-XKX"/>
+                                            <constraint firstAttribute="height" constant="60" id="VW3-df-2zk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                        <state key="normal" title="Image Quiz">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="lUC-Wh-JTB" secondAttribute="centerY" id="fJL-v5-SIO"/>
+                                    <constraint firstAttribute="centerX" secondItem="lUC-Wh-JTB" secondAttribute="centerX" id="ggO-bZ-XGN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2hV-D0-qNz" firstAttribute="top" secondItem="Qf3-3d-P5z" secondAttribute="bottom" constant="8" id="0sX-gk-PlO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kLc-bv-Snv" secondAttribute="trailing" constant="-16" id="F75-3k-Klz"/>
+                            <constraint firstItem="BEf-Ul-jAs" firstAttribute="leading" secondItem="ugm-nt-X6O" secondAttribute="leadingMargin" constant="-16" id="Fpn-4n-Y3K"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gku-KJ-OIe" secondAttribute="trailing" constant="-16" id="H26-5R-6P1"/>
+                            <constraint firstItem="2hV-D0-qNz" firstAttribute="height" secondItem="oe8-zj-d8G" secondAttribute="height" id="Mgw-Ru-ao4"/>
+                            <constraint firstItem="gku-KJ-OIe" firstAttribute="top" secondItem="kLc-bv-Snv" secondAttribute="bottom" constant="8" id="Ojj-Jg-Aib"/>
+                            <constraint firstItem="kLc-bv-Snv" firstAttribute="leading" secondItem="ugm-nt-X6O" secondAttribute="leadingMargin" constant="-16" id="RQv-TI-Q13"/>
+                            <constraint firstItem="BEf-Ul-jAs" firstAttribute="top" secondItem="2hV-D0-qNz" secondAttribute="bottom" constant="8" id="YOp-Bi-ByI"/>
+                            <constraint firstItem="2hV-D0-qNz" firstAttribute="height" secondItem="BEf-Ul-jAs" secondAttribute="height" id="bTQ-5B-KcN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oe8-zj-d8G" secondAttribute="trailing" constant="-16" id="elu-lT-lMj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BEf-Ul-jAs" secondAttribute="trailing" constant="-16" id="fU1-Ex-RwF"/>
+                            <constraint firstItem="yUR-Mi-lB1" firstAttribute="top" secondItem="gku-KJ-OIe" secondAttribute="bottom" id="h5q-Zr-r8k"/>
+                            <constraint firstItem="gku-KJ-OIe" firstAttribute="leading" secondItem="ugm-nt-X6O" secondAttribute="leadingMargin" constant="-16" id="mse-6P-7Ku"/>
+                            <constraint firstItem="kLc-bv-Snv" firstAttribute="top" secondItem="oe8-zj-d8G" secondAttribute="bottom" constant="8" id="ndX-pL-8im"/>
+                            <constraint firstItem="2hV-D0-qNz" firstAttribute="height" secondItem="kLc-bv-Snv" secondAttribute="height" id="rfr-3t-7Od"/>
+                            <constraint firstItem="oe8-zj-d8G" firstAttribute="top" secondItem="BEf-Ul-jAs" secondAttribute="bottom" constant="8" id="uhb-uG-lK8"/>
+                            <constraint firstItem="oe8-zj-d8G" firstAttribute="leading" secondItem="ugm-nt-X6O" secondAttribute="leadingMargin" constant="-16" id="w9T-Mx-EGh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2hV-D0-qNz" secondAttribute="trailing" constant="-16" id="wAa-Qc-XrO"/>
+                            <constraint firstItem="2hV-D0-qNz" firstAttribute="leading" secondItem="ugm-nt-X6O" secondAttribute="leadingMargin" constant="-16" id="zQB-oH-fPM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDb-2x-tXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="486"/>
+        </scene>
+        <!--Multiple Choice View Controller-->
+        <scene sceneID="BBV-FV-oZg">
+            <objects>
+                <viewController storyboardIdentifier="multipleChoiceViewController" id="415-t3-hza" customClass="MultipleChoiceViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D0I-5x-EFS"/>
+                        <viewControllerLayoutGuide type="bottom" id="42l-wo-8cA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VRa-pS-ajd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ghc-w8-f4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="-193"/>
+        </scene>
+        <!--Right Or Wrong View Controller-->
+        <scene sceneID="jUq-Ca-eyF">
+            <objects>
+                <viewController storyboardIdentifier="rightOrWrongViewController" id="1CV-qh-8Nu" customClass="RightOrWrongViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ng0-Pb-CSc"/>
+                        <viewControllerLayoutGuide type="bottom" id="i1h-T4-G8f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LXO-zX-FGp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNg-qT-Js9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="486"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="zFh-oF-bu4">
+            <objects>
+                <viewController storyboardIdentifier="inputViewController" id="dQ3-Mp-cbD" customClass="InputViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qfl-hn-blj"/>
+                        <viewControllerLayoutGuide type="bottom" id="xyC-Ws-1i7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="awn-4r-A4A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blg-tn-9kC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="1847"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="w9U-HE-bqh">
+            <objects>
+                <viewController storyboardIdentifier="imageViewController" id="12E-hh-JMn" customClass="ImageViewController" customModule="Quiz_Masters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a75-di-1aH"/>
+                        <viewControllerLayoutGuide type="bottom" id="jqw-uP-yUZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Mv-wW-s3E">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2W-QS-vDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="1163"/>
+        </scene>
+    </scenes>
+</document>
